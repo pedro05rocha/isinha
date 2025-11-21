@@ -33,7 +33,7 @@ body {
 
 .flowers {
   position: relative;
-  transform: scale(0.9);
+  transform: scale(0.6);
 }
 
 .flower {
@@ -1302,6 +1302,7 @@ body {
 .growing-grass {
   -webkit-animation: growing-grass-ans 1s 2s backwards;
           animation: growing-grass-ans 1s 2s backwards;
+  transform: scale(0.8);
 }
 
 @-webkit-keyframes growing-grass-ans {
@@ -1322,7 +1323,7 @@ body {
 
 .happy-birthday {
     position: absolute;
-    top: 5vmin; /* dist‚ncia do topo */
+    top: 5vmin; /* dist√¢ncia do topo */
     left: 50%;
     transform: translateX(-50%);
     font-size: 8vmin; /* tamanho grande e responsivo */
@@ -1332,4 +1333,5 @@ body {
     z-index: 100; /* fica acima de tudo */
     text-align: center;
 }
+
 
